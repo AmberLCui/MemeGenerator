@@ -1,0 +1,83 @@
+h1 {
+    font-size: 3rem;
+    color: rgba(157, 70, 231, 0.67);
+    text-align: center;
+}
+
+h2 {
+    font-size: 15px;
+    color: rgba(157, 70, 231, 0.67);
+    text-align: center;
+}
+
+form {
+    padding: 90px;
+    background-color: rgba(160, 160, 160, 0.47);
+}
+
+label{
+    display: inline-block;
+    text-align: left;
+    padding-top: 5px;
+    width: 140px;
+    color: rgba(157, 70, 231, 0.67);
+}
+
+input {
+    margin: 10px;
+    width: 90%;
+    display: inline-block;
+}
+
+button {
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(157, 70, 231, 0.67);
+    float: right;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: rgba(205, 158, 247, 0.67);
+}
+
+final {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+topText {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+bottomText {
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+}
+
+deleteButton{
+    position: relative;
+    border: 1px solid black;
+    background-color: rgba(157, 70, 231, 0.67);
+}
+
+deleteButton:hover {
+    background-color: rgba(205, 158, 247, 0.67);
+}
+
+memeImg {
+    max-width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+box1 {
+    position: relative;
+}
